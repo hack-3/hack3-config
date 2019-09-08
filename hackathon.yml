@@ -1,15 +1,15 @@
-name: RedPandaHacks
-version: I # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
-main_website: https://panda.hackumass.com
-dashboard_url: panda-dashboard.hackumass.com
+name: Hack3
+version: "2019" # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
+main_website: https://hack3.co
+dashboard_url: dashboard.hack3.co
 logos:
-  primary_path: PandaLogo.png
+  primary_path: logo.png
   nav_path: navlogo.png
 emails:
-  donotreply: donotreplytothepandas@hackumass.com
-  contact: pandas@hackumass.com
+  donotreply: dashboard-noreply@hack3.co
+  contact: team@hack3.co
 slack:
-  subdomain: redpandahacks
+  subdomain: nonexistent
 applications:
   mode: 'open'
   # options: open, waitlist, or closed. defaults to closed.
