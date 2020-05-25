@@ -1,5 +1,5 @@
 name: Hack3
-version: 2019 # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
+version: 2020 # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
 main_website: https://hack3.co
 dashboard_url: dashboard.hack3.co
 logos:
@@ -9,7 +9,18 @@ emails:
   donotreply: dashboard-noreply@hack3.co
   contact: team@hack3.co
 slack:
-  subdomain: nonexistent
+  subdomain: hack3-2020
+checkin:
+  # Any participant with this email domain will be counted as from the host university
+  university_email_suffix: hack3.co
+  university_name: UPandas
+  university_name_checks:
+    - University of Hack3
+    - UHack3
+    - Hack3
+    - Hack-3
+    - Hack3 University
+    - Hack 3
 applications:
   mode: 'open'
   # options: open, waitlist, or closed. defaults to closed.
